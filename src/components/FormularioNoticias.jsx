@@ -15,7 +15,7 @@ const FormularioNoticias = ({noticias}) => {
     
     
   return (
-    <div className="container bg-danger">
+    <div className="container border border-black mt-5">
       <h1 className="text-center my-3">Noticias</h1>
       <hr className="mb-3" />
       <Form >
@@ -30,7 +30,7 @@ const FormularioNoticias = ({noticias}) => {
                   <option >business</option>
                   <option>politics</option>
                   <option>top</option>
-           {/* <option>entertainment</option>
+            <option>entertainment</option>
             <option>environment</option>
             <option>food</option>
             <option>health</option>
@@ -40,7 +40,7 @@ const FormularioNoticias = ({noticias}) => {
             <option>technology</option>
 
             <option>tourism</option>
-            <option>world</option>*/}
+            <option>world</option>
                 </select>
           </Form.Group>
           
